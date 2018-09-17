@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.sch.smkn13bdg.adhi.barcodetextscanner.MainActivity">
+
+    <Button
+        android:id="@+id/scanqrcodeebtn"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan QRCode"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/scantextbtn"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scanqrcodeebtn"
+        android:text="Scan Text"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scantextbtn"
+        android:text="RESULT"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+</RelativeLayout>
